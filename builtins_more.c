@@ -113,11 +113,11 @@ int builtin_help(data_of_program *data)
 		perror(data->command_name);
 		return (5);
 	}
-	mensajes[1] = HELP_EXIT_MSG;
-	mensajes[2] = HELP_ENV_MSG;
-	mensajes[3] = HELP_SETENV_MSG;
-	mensajes[4] = HELP_UNSETENV_MSG;
-	mensajes[5] = HELP_CD_MSG;
+	mensajes[1] = HELP_EXIT;
+	mensajes[2] = HELP_ENV;
+	mensajes[3] = HELP_SETENV;
+	mensajes[4] = HELP_UNSETENV;
+	mensajes[5] = HELP_CD;
 
 	for (i = 0; mensajes[i]; i++)
 	{
